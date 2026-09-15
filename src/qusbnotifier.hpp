@@ -1,8 +1,7 @@
-#pragma once
+// Генератор события при подключения USB устройства
+// Правда работает только под Windows
 
-/* Определитель подключенного USB устройства
-* Правда работает только под Windows
-*/
+#pragma once
 
 #include <QAbstractNativeEventFilter>
 #include <QApplication>
